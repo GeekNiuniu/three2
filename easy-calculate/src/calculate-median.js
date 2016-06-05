@@ -6,8 +6,8 @@ function calculate_median(arr) {
  for(var i=0;i<arr.length/2;i++){
  	b[i]=arr[2*i+1];
 }
- c=b.sort(function(a,b){
-	return a-b
+ c=b.sort(function(m,t){
+	return m-t
 });
 
 
